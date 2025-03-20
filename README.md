@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# tech-camp-2025-vue-apis
-=======
 # technology-camp-2025-vue-apis
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -40,4 +37,3 @@ npm run build
 ```sh
 npm run lint
 ```
->>>>>>> 4c26bff (initial commit)
