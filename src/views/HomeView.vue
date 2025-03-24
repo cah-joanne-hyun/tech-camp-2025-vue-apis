@@ -1,17 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HelloWorld from '../components/HelloWorld.vue'
+</script>
 
 <template>
-  <div class="home">
+  <div>
     <h1>This is the home page</h1>
+    <HelloWorld></HelloWorld>
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .home {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<style></style>
