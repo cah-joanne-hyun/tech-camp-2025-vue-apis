@@ -37,3 +37,17 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Project Setup
+
+```sh
+npm install
+git checkout -b <your_name>/<branch_name> (ex. joanne/sample)
+npm run dev
+```
+
+#### Explore the Code
+
+- index.html
+- main.ts
+- App.vue
