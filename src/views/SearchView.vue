@@ -53,10 +53,6 @@ async function searchQuery() {
       <InputText type="text" v-model="query" placeholder="Search for a movie title..." />
       <Button type="submit">Submit</Button>
     </form>
-    <!-- <form @submit.prevent="searchQuery">
-      <InputText type="text" v-model="query" placeholder="Search for a movie title..." />
-      <Button type="submit">Submit</Button>
-    </form> -->
 
     <div v-if="error" style="color: red">{{ error }}</div>
 
